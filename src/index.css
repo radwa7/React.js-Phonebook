@@ -11,3 +11,72 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+  .fakeimg {
+    height: 200px;
+    background: #aaa;
+  }
+  #header{
+	padding:40px;
+	background-color:#c3a5e0;
+  background: linear-gradient(90deg, #88739c 0%, #cfb7e6 35%, #e7dbf2 100%);
+  }
+  #nav{
+    background-color:#c3a5e0;
+    background: linear-gradient(90deg, #88739c 0%, #cfb7e6 35%, #e7dbf2 100%);
+    
+  }
+  .table thead, .headL{
+    color: #877497;
+  }
+  .table td{
+    vertical-align: middle;
+  }
+  .editbtn{
+    background-color: #c3a5e0;
+  }
+  .editbtn:hover{
+    background-color: #9274ac;
+  }
+  .content{
+	margin-top:30px;
+  
+  }
+  .side_content{
+	text-align:center;
+	
+  }
+  .ic{
+	font-size:30px;
+  }
+  .active{
+	font-weight:bold;
+  }
+  
+
+  .content{
+    min-height: 295px;
+    text-align: center;
+    
+  }
+  .pagination a{
+    color:#ac73e0
+  }
+  .pagination a:hover{
+    color:#8c66af
+  }
+  footer{
+    background-color: #cfb7e6!important;
+    background: linear-gradient(90deg, #cfb7e6 0%, #dad1e2 35%, #e7dbf2 100%);
+    
+  }
+  #homelink{
+    color: #88739c;
+  }
+  .btn-primary{
+    border: none;
+    background-color: #c3a5e0;
+  }
+  .btn-primary:hover{
+    background-color: #9274ac;
+  }

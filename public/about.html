@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Today Sports Blog</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+  <style>
+  .fakeimg {
+    height: 200px;
+    background: #aaa;
+  }
+  #header{
+	padding:40px;
+	background-color:#EEE;
+  }
+  .content{
+	margin-top:30px;
+	min-height:500px;
+  }
+  .side_content{
+	text-align:center;
+	
+  }
+  .ic{
+	font-size:30px;
+  }
+  .active{
+	font-weight:bold;
+  }
+  .msg{
+	border:2px solid black;
+	padding:10px;
+	margin-top:2px;
+	border-radius:20px;
+  }
+  .msg2{
+	padding:30px;
+  }
+  </style>
+</head>
+<body>
+
+<div id="header" class="text-center" style="margin-bottom:0">
+  <h1> <img src="logo.png"  width="80" height="80"  /> Today Sports Blog</h1>
+  <p>Keep in touch with the latest news ...</p> 
+</div>
+
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+  <a class="navbar-brand" href="#">Menu</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+    <ul class="navbar-nav">
+      <li class="nav-item ">
+         <a class="nav-link" href="home.html"><span class="fas fa-home"></span> Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="blog.html"><span class="fas fa-book"></span> Plog Posts</a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="about.html"><span class="fas fa-question-circle"></span> About Me</a>
+      </li>
+	
+	<li class="nav-item">
+        <a class="nav-link" href="login.html"><span class="fas fa-user"></span> Login</a>
+      </li>    
+    </ul>
+  </div>  
+</nav>
+
+<div class="container content" >
+  <div class="row">
+  
+	
+	
+	
+	
+    <div class="col-sm-12 side_content">
+      <h2>About Me</h2>
+      <div ><img src="profile.png" class="rounded-circle"  width="200" height="200"  /></div>
+      
+<div class="bio mb-3">Hi, my name is Anthony Doe. Briefly introduce yourself here. You can also provide a link to the about page.<br><a href="about.html">Find out more about me</a></div><!--//bio-->
+					<ul class="social-list list-inline py-3 mx-auto ic">
+			            <li class="list-inline-item"><a href="#"><i class="fab fa-twitter fa-fw"></i></a></li>
+			            <li class="list-inline-item"><a href="#"><i class="fab fa-linkedin-in fa-fw"></i></a></li>
+			            <li class="list-inline-item"><a href="#"><i class="fab fa-github-alt fa-fw"></i></a></li>
+			            <li class="list-inline-item"><a href="#"><i class="fab fa-stack-overflow fa-fw"></i></a></li>
+			            <li class="list-inline-item"><a href="#"><i class="fab fa-codepen fa-fw"></i></a></li>
+			        </ul><!--//social-list-->
+			        
+      <hr/>
+	  <h2>My Guest Book</h2>
+	  <div class="row">
+		<div class="col-md-3 msg">
+			Ahmed
+		</div>
+		<div class="col-md-3 msg">
+			Fawzy
+		</div>
+		<div class="col-md-3 msg">
+			Fawzy@gmail.com
+		</div>
+		<div class="col-md-3 msg">
+			2021-08-08 05:05:12
+		</div>
+	  </div>
+	  
+	  <div class="row">
+		<div class="col-md-12 msg msg2">
+			Thank you for your great work , keep going ...
+		</div>
+	  </div>
+	  
+	   <hr/>
+
+<div class="row">
+		<div class="col-md-3 msg">
+			Ali
+		</div>
+		<div class="col-md-3 msg">
+			Mohammed
+		</div>
+		<div class="col-md-3 msg">
+			ali@hotmail.com
+		</div>
+		<div class="col-md-3 msg">
+			2021-08-08 03:04:12
+		</div>
+	  </div>
+	  
+	  <div class="row">
+		<div class="col-md-12 msg msg2">
+			Amazing blog ...
+		</div>
+	  </div>
+	  
+	   <hr/>
+	   
+    </div>
+  </div>
+  
+<div class="row">
+
+   <div class="col-md-12 p-5" >
+	<h2>Send me you feedback</h2>
+	<form action="/action_page.php">
+    <div class="form-group">
+      <label for="fname">Firstname:</label>
+      <input type="text" class="form-control" required id="fname" placeholder="Enter firstname" name="fname">
+    </div>
+    <div class="form-group">
+      <label for="lname">Lastname:</label>
+      <input type="text" class="form-control" required id="lname" placeholder="Enter lastname" name="lname">
+    </div>
+    <div class="form-group">
+      <label for="email">Email:</label>
+      <input type="email" class="form-control" required id="email" placeholder="Enter email" name="email">
+    </div>
+    <div class="form-group">
+      <label for="msg">Message:</label>
+      <textarea class="form-control" id="msg" required name="msg"></textarea>
+    </div>
+    
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
+  
+  </div>
+  
+
+  </div>
+</div>
+
+<div class="jumbotron text-center" style="margin-bottom:0">
+  <h4>All rights resrved for Today Sport LTC &copy; &reg;</h4>
+</div>
+
+</body>
+</html>
